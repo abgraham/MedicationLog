@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECE38A61E15A38E000FEB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE38A51E15A38E000FEB3D /* main.m */; };
+		DECE38A91E15A38E000FEB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE38A81E15A38E000FEB3D /* AppDelegate.m */; };
+		DECE38AC1E15A38E000FEB3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE38AB1E15A38E000FEB3D /* ViewController.m */; };
+		DECE38AF1E15A38E000FEB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE38AD1E15A38E000FEB3D /* Main.storyboard */; };
+		DECE38B21E15A38E000FEB3D /* MedicationLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECE38B01E15A38E000FEB3D /* MedicationLog.xcdatamodeld */; };
+		DECE38B41E15A38E000FEB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECE38B31E15A38E000FEB3D /* Assets.xcassets */; };
+		DECE38B71E15A38E000FEB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE38B51E15A38E000FEB3D /* LaunchScreen.storyboard */; };
+		DECE38C21E15A38F000FEB3D /* MedicationLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE38C11E15A38F000FEB3D /* MedicationLogTests.m */; };
+		DECE38CD1E15A38F000FEB3D /* MedicationLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE38CC1E15A38F000FEB3D /* MedicationLogUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECE38BE1E15A38F000FEB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECE38991E15A38E000FEB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECE38A01E15A38E000FEB3D;
+			remoteInfo = MedicationLog;
+		};
+		DECE38C91E15A38F000FEB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECE38991E15A38E000FEB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECE38A01E15A38E000FEB3D;
+			remoteInfo = MedicationLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECE38A11E15A38E000FEB3D /* MedicationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE38A51E15A38E000FEB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECE38A71E15A38E000FEB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DECE38A81E15A38E000FEB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DECE38AA1E15A38E000FEB3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DECE38AB1E15A38E000FEB3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DECE38AE1E15A38E000FEB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECE38B11E15A38E000FEB3D /* MedicationLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicationLog.xcdatamodel; sourceTree = "<group>"; };
+		DECE38B31E15A38E000FEB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECE38B61E15A38E000FEB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DECE38B81E15A38E000FEB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE38BD1E15A38F000FEB3D /* MedicationLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicationLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE38C11E15A38F000FEB3D /* MedicationLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicationLogTests.m; sourceTree = "<group>"; };
+		DECE38C31E15A38F000FEB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE38C81E15A38F000FEB3D /* MedicationLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicationLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE38CC1E15A38F000FEB3D /* MedicationLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicationLogUITests.m; sourceTree = "<group>"; };
+		DECE38CE1E15A38F000FEB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECE389E1E15A38E000FEB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38BA1E15A38F000FEB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38C51E15A38F000FEB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECE38981E15A38E000FEB3D = {
+			isa = PBXGroup;
+			children = (
+				DECE38A31E15A38E000FEB3D /* MedicationLog */,
+				DECE38C01E15A38F000FEB3D /* MedicationLogTests */,
+				DECE38CB1E15A38F000FEB3D /* MedicationLogUITests */,
+				DECE38A21E15A38E000FEB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECE38A21E15A38E000FEB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECE38A11E15A38E000FEB3D /* MedicationLog.app */,
+				DECE38BD1E15A38F000FEB3D /* MedicationLogTests.xctest */,
+				DECE38C81E15A38F000FEB3D /* MedicationLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECE38A31E15A38E000FEB3D /* MedicationLog */ = {
+			isa = PBXGroup;
+			children = (
+				DECE38A71E15A38E000FEB3D /* AppDelegate.h */,
+				DECE38A81E15A38E000FEB3D /* AppDelegate.m */,
+				DECE38AA1E15A38E000FEB3D /* ViewController.h */,
+				DECE38AB1E15A38E000FEB3D /* ViewController.m */,
+				DECE38AD1E15A38E000FEB3D /* Main.storyboard */,
+				DECE38B31E15A38E000FEB3D /* Assets.xcassets */,
+				DECE38B51E15A38E000FEB3D /* LaunchScreen.storyboard */,
+				DECE38B81E15A38E000FEB3D /* Info.plist */,
+				DECE38B01E15A38E000FEB3D /* MedicationLog.xcdatamodeld */,
+				DECE38A41E15A38E000FEB3D /* Supporting Files */,
+			);
+			path = MedicationLog;
+			sourceTree = "<group>";
+		};
+		DECE38A41E15A38E000FEB3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECE38A51E15A38E000FEB3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DECE38C01E15A38F000FEB3D /* MedicationLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECE38C11E15A38F000FEB3D /* MedicationLogTests.m */,
+				DECE38C31E15A38F000FEB3D /* Info.plist */,
+			);
+			path = MedicationLogTests;
+			sourceTree = "<group>";
+		};
+		DECE38CB1E15A38F000FEB3D /* MedicationLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DECE38CC1E15A38F000FEB3D /* MedicationLogUITests.m */,
+				DECE38CE1E15A38F000FEB3D /* Info.plist */,
+			);
+			path = MedicationLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECE38A01E15A38E000FEB3D /* MedicationLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECE38D11E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLog" */;
+			buildPhases = (
+				DECE389D1E15A38E000FEB3D /* Sources */,
+				DECE389E1E15A38E000FEB3D /* Frameworks */,
+				DECE389F1E15A38E000FEB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicationLog;
+			productName = MedicationLog;
+			productReference = DECE38A11E15A38E000FEB3D /* MedicationLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECE38BC1E15A38F000FEB3D /* MedicationLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECE38D41E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLogTests" */;
+			buildPhases = (
+				DECE38B91E15A38F000FEB3D /* Sources */,
+				DECE38BA1E15A38F000FEB3D /* Frameworks */,
+				DECE38BB1E15A38F000FEB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECE38BF1E15A38F000FEB3D /* PBXTargetDependency */,
+			);
+			name = MedicationLogTests;
+			productName = MedicationLogTests;
+			productReference = DECE38BD1E15A38F000FEB3D /* MedicationLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DECE38C71E15A38F000FEB3D /* MedicationLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECE38D71E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLogUITests" */;
+			buildPhases = (
+				DECE38C41E15A38F000FEB3D /* Sources */,
+				DECE38C51E15A38F000FEB3D /* Frameworks */,
+				DECE38C61E15A38F000FEB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECE38CA1E15A38F000FEB3D /* PBXTargetDependency */,
+			);
+			name = MedicationLogUITests;
+			productName = MedicationLogUITests;
+			productReference = DECE38C81E15A38F000FEB3D /* MedicationLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECE38991E15A38E000FEB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Annie Graham";
+				TargetAttributes = {
+					DECE38A01E15A38E000FEB3D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DECE38BC1E15A38F000FEB3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DECE38A01E15A38E000FEB3D;
+					};
+					DECE38C71E15A38F000FEB3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DECE38A01E15A38E000FEB3D;
+					};
+				};
+			};
+			buildConfigurationList = DECE389C1E15A38E000FEB3D /* Build configuration list for PBXProject "MedicationLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECE38981E15A38E000FEB3D;
+			productRefGroup = DECE38A21E15A38E000FEB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECE38A01E15A38E000FEB3D /* MedicationLog */,
+				DECE38BC1E15A38F000FEB3D /* MedicationLogTests */,
+				DECE38C71E15A38F000FEB3D /* MedicationLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECE389F1E15A38E000FEB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE38B71E15A38E000FEB3D /* LaunchScreen.storyboard in Resources */,
+				DECE38B41E15A38E000FEB3D /* Assets.xcassets in Resources */,
+				DECE38AF1E15A38E000FEB3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38BB1E15A38F000FEB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38C61E15A38F000FEB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECE389D1E15A38E000FEB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE38AC1E15A38E000FEB3D /* ViewController.m in Sources */,
+				DECE38B21E15A38E000FEB3D /* MedicationLog.xcdatamodeld in Sources */,
+				DECE38A91E15A38E000FEB3D /* AppDelegate.m in Sources */,
+				DECE38A61E15A38E000FEB3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38B91E15A38F000FEB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE38C21E15A38F000FEB3D /* MedicationLogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE38C41E15A38F000FEB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE38CD1E15A38F000FEB3D /* MedicationLogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECE38BF1E15A38F000FEB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECE38A01E15A38E000FEB3D /* MedicationLog */;
+			targetProxy = DECE38BE1E15A38F000FEB3D /* PBXContainerItemProxy */;
+		};
+		DECE38CA1E15A38F000FEB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECE38A01E15A38E000FEB3D /* MedicationLog */;
+			targetProxy = DECE38C91E15A38F000FEB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECE38AD1E15A38E000FEB3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECE38AE1E15A38E000FEB3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DECE38B51E15A38E000FEB3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECE38B61E15A38E000FEB3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECE38CF1E15A38F000FEB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DECE38D01E15A38F000FEB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECE38D21E15A38F000FEB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicationLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECE38D31E15A38F000FEB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicationLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DECE38D51E15A38F000FEB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedicationLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicationLog.app/MedicationLog";
+			};
+			name = Debug;
+		};
+		DECE38D61E15A38F000FEB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedicationLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicationLog.app/MedicationLog";
+			};
+			name = Release;
+		};
+		DECE38D81E15A38F000FEB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedicationLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedicationLog;
+			};
+			name = Debug;
+		};
+		DECE38D91E15A38F000FEB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedicationLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.MedicationLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedicationLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECE389C1E15A38E000FEB3D /* Build configuration list for PBXProject "MedicationLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE38CF1E15A38F000FEB3D /* Debug */,
+				DECE38D01E15A38F000FEB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECE38D11E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE38D21E15A38F000FEB3D /* Debug */,
+				DECE38D31E15A38F000FEB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECE38D41E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE38D51E15A38F000FEB3D /* Debug */,
+				DECE38D61E15A38F000FEB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECE38D71E15A38F000FEB3D /* Build configuration list for PBXNativeTarget "MedicationLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE38D81E15A38F000FEB3D /* Debug */,
+				DECE38D91E15A38F000FEB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DECE38B01E15A38E000FEB3D /* MedicationLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DECE38B11E15A38E000FEB3D /* MedicationLog.xcdatamodel */,
+			);
+			currentVersion = DECE38B11E15A38E000FEB3D /* MedicationLog.xcdatamodel */;
+			path = MedicationLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DECE38991E15A38E000FEB3D /* Project object */;
+}
